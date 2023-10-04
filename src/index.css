@@ -1,1 +1,37 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.use-fetch-example {
+    margin-right: -15px;
+    margin-bottom: -15px;
+}
+
+.use-fetch-example .card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.use-fetch-example .card {
+    width: 33.333%;
+    
+    
+}
+
+.use-fetch-example .card .card-inner { 
+margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: lightblue;
+}
